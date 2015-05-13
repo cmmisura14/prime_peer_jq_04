@@ -3,39 +3,42 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
     <script src="jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
 </head>
 <body>
 
     <div class="container">
-        <div class="row">
-            <div id="input"></div>
+        <div class="row text-right">
+            <input class="col-md-4" type="hidden" id="operation" value=""/>
+            <input class="col-md-4" type="text" value="" id="answer">
         </div>
         <div class="row operations">
-            <div class="btn btn-default display addition" data-value="+">+</div>
-            <div class="btn btn-default display subtraction" data-value="-">-</div>
-            <div class="btn btn-default display division" data-value="/">/</div>
-            <div class="btn btn-default display multiplication" data-value="*">*</div>
+            <input class="btn btn-default method col-md-1 addition" type="button" value="+" id="plus">
+            <input class="btn btn-default method col-md-1 subtract" type="button" value="-" id="subtract">
+            <input class="btn btn-default method col-md-1 divide" type="button" value="/" id="divide">
+            <input class="btn btn-default method col-md-1 multiply" type="button" value="*" id="multiply">
         </div>
         <div class="row">
-            <div class="btn btn-default display" data-value="0">0</div>
-            <div class="btn btn-default display" data-value="1">1</div>
-            <div class="btn btn-default display" data-value="2">2</div>
-            <div class="btn btn-default display" data-value="3">3</div>
+            <input class="btn btn-default number col-md-1" type="button" value="0" id="0">
+            <input class="btn btn-default number col-md-1" type="button" value="1" id="1">
+            <input class="btn btn-default number col-md-1" type="button" value="2" id="2">
+            <input class="btn btn-default number col-md-1" type="button" value="3" id="3">
         </div>
         <div class="row">
-            <div class="btn btn-default display" data-value="4">4</div>
-            <div class="btn btn-default display" data-value="5">5</div>
-            <div class="btn btn-default display" data-value="6">6</div>
-            <div class="btn btn-default display" data-value="7">7</div>
+            <input class="btn btn-default number col-md-1" type="button" value="4" id="4">
+            <input class="btn btn-default number col-md-1" type="button" value="5" id="5">
+            <input class="btn btn-default number col-md-1" type="button" value="6" id="6">
+            <input class="btn btn-default number col-md-1" type="button" value="7" id="7">
         </div>
         <div class="row">
-            <div class="btn btn-default display" data-value="8">8</div>
-            <div class="btn btn-default display" data-value="9">9</div>
-            <div class="btn btn-default" data-value="=">=</div>
-            <div class="btn btn-default" data-value="ac">AC</div>
+            <input class="btn btn-default number col-md-1" type="button" value="8" id="8">
+            <input class="btn btn-default number col-md-1" type="button" value="9" id="9">
+            <input class="btn btn-default equals col-md-1" type="button" value="=" id="equals">
+            <input class="btn btn-default clear col-md-1" type="button" value="ac" id="clear">
         </div>
     </div>
 
