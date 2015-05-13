@@ -2,6 +2,8 @@
 
 Hi Friends!
 
+Don't fret. We will go back and talk about the recent Mongo Assignment this afternoon.
+
 We feel like its time to go back and hit some basic applications using Javascript and jQuery (don’t worry, you will have the chance to flex some of those other skills as well if you would like!). For this assignment, we want you to make a client side calculator. ‘Normal Mode’ does not need Bootstrap, Node, Express, or Mongo.
 
 The mathematical functionality should include Addition, Subtraction, Multiplication, and Division. The calculator should have 0-9 as numerical buttons as well as an equals button. There should be a text field that updates based on the button presses and shows the user what it is they have entered real time (meaning that each button press updates the text box). 
