@@ -1,0 +1,28 @@
+{
+  "name": "prime_peer_jq_04",
+  "version": "1.0.0",
+  "description": "\"jQuery calculator\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tgun6144/prime_peer_jq_04.git"
+  },
+  "author": "Terry Gunderson Cody Misura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tgun6144/prime_peer_jq_04/issues"
+  },
+  "homepage": "https://github.com/tgun6144/prime_peer_jq_04",
+  "dependencies": {
+    "bootstrap": "^3.3.4",
+    "express": "^4.12.3",
+    "grunt": "^0.4.5",
+    "grunt-contrib-copy": "^0.8.0",
+    "jquery": "^2.1.4",
+    "path": "^0.11.14"
+  }
+}

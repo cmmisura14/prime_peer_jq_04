@@ -64,19 +64,19 @@ $(document).ready(function(){
         }
     });
 
-    $('#product').click(function(e) {
+    $('#multiply').click(function(e) {
 
         if($('#answer').val() == ''){
             return false;
             $('#equals').attr('onclick','');
         }
         else if ( $('#operation').attr('class') == 'activeAnswer') {
-            $('#operation').val( $('#operation').val() + $('#product').val() );
+            $('#operation').val( $('#operation').val() + $('#multiply').val() );
             $('#answer').val('');
             $('#equals').attr('onclick','');
         }
         else{
-            $('#operation').val( $('#operation').val() + $('#answer').val() + $('#product').val() );
+            $('#operation').val( $('#operation').val() + $('#answer').val() + $('#multiply').val() );
             $('#answer').val('');
             $('#equals').attr('onclick','');
         }
